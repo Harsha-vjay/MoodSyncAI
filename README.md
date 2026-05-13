@@ -7,7 +7,7 @@ Course: Prof. Dr. Gayan de Silva.
 
 ---
 
-## ✨ What it does
+## What it does
 
 Upload a photo of a person, type the sentence they said, and MoodSyncAI returns:
 
@@ -24,7 +24,7 @@ The app also supports two extra modalities and a standout coaching mode:
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -53,7 +53,7 @@ A high-resolution diagram is in `assets/architecture.png`.
 
 ---
 
-## 🧠 Models
+## Models
 
 | Component  | Model                                     | Purpose                                |
 | ---------- | ----------------------------------------- | -------------------------------------- |
@@ -65,12 +65,12 @@ A high-resolution diagram is in `assets/architecture.png`.
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/moodsync-ai.git
-cd moodsync-ai
+git https://github.com/Harsha-vjay/MoodSyncAI
+cd MoodSyncAI
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -87,10 +87,10 @@ The first run downloads ~1.5 GB of model weights from HuggingFace; subsequent ru
 
 ---
 
-## 📂 Project structure
+## Project structure
 
 ```
-moodsync-ai/
+MoodSyncAI/
 ├── app.py                       # Streamlit entry point
 ├── requirements.txt
 ├── README.md
@@ -117,7 +117,7 @@ moodsync-ai/
 
 ---
 
-## 🎚️ Settings (sidebar)
+## Settings (sidebar)
 
 | Setting                         | Effect                                                   |
 | ------------------------------- | -------------------------------------------------------- |
@@ -127,7 +127,7 @@ moodsync-ai/
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Hugging Face Spaces
 
@@ -146,7 +146,7 @@ moodsync-ai/
 
 ---
 
-## 🔬 Extended features implemented
+## Extended features implemented
 
 | Feature                                           | Status |
 | ------------------------------------------------- | ------ |
@@ -159,7 +159,7 @@ moodsync-ai/
 
 ---
 
-## 🧪 Reproducing the demo
+## Reproducing the demo
 
 The example flow from the assignment brief works out of the box:
 
@@ -174,7 +174,7 @@ The example flow from the assignment brief works out of the box:
 
 ---
 
-## ⚠️ Limitations & ethical notes
+## Limitations & ethical notes
 
 * The face model is trained on FER-2013, which is biased toward Western, posed expressions. Predictions on other demographics are noisier.
 * The system is a **conversation aid**, not a clinical or surveillance tool. The summary explicitly avoids medical / diagnostic claims.
@@ -182,13 +182,13 @@ The example flow from the assignment brief works out of the box:
 
 ---
 
-## 🙋 Author
+## Author
 
 **Harsha** — Data Analytics-3, SoSe 2025
 Instructor: Prof. Dr. Gayan de Silva.
 
 ---
 
-## 📜 License
+## License
 
 MIT — see `LICENSE`.
