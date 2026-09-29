@@ -2,7 +2,7 @@
 
 > A Streamlit application that fuses **facial expression**, **text** and (optionally) **speech** to detect when what people *say* differs from what they *feel*.
 
-Final project for **Data Analytics-3 — Deep Learning & GenAI** (SoSe 2025).
+Final project for **Data Analytics-3: Deep Learning & GenAI** (SoSe 2025).
 Course: Prof. Dr. Gayan de Silva.
 
 ---
@@ -11,16 +11,16 @@ Course: Prof. Dr. Gayan de Silva.
 
 Upload a photo of a person, type the sentence they said, and MoodSyncAI returns:
 
-1. **Visual emotion** — top label, confidence and a full distribution across 7 classes (ViT on FER-2013).
-2. **Textual sentiment** — top label and full distribution from a fine-tuned DistilRoBERTa.
-3. **Fusion result** — a learned MLP combines both modalities and flags **mismatch** when face and words disagree.
-4. **Generative summary** — FLAN-T5 explains the combined emotional state in plain language ("This person appears distressed despite calm language…").
+1. **Visual emotion** - top label, confidence and a full distribution across 7 classes (ViT on FER-2013).
+2. **Textual sentiment** - top label and full distribution from a fine-tuned DistilRoBERTa.
+3. **Fusion result** - a learned MLP combines both modalities and flags **mismatch** when face and words disagree.
+4. **Generative summary** - FLAN-T5 explains the combined emotional state in plain language ("This person appears distressed despite calm language…").
 
 The app also supports two extra modalities and a standout coaching mode:
 
-* **🎥 Webcam / short video** — capture a sequence of snapshots live from your browser webcam, *or* upload a short clip; either way the ViT runs on every frame and a timeline chart shows how emotions shift over time.
-* **🎙️ Audio** — Whisper transcribes speech and feeds the transcript into the text channel for full tri-modal fusion.
-* **🧭 Conversation Coach** — beyond single-moment analysis: capture a sequence of conversation turns, plot how the alignment between modalities evolves across the whole conversation, and get **prescriptive** advice ("the alignment is drifting into mismatch at turn 3 — pause and ask an open-ended question") instead of just a description. This turns MoodSyncAI from a descriptive tool into an actionable conversation companion.
+* **🎥 Webcam / short video** - capture a sequence of snapshots live from your browser webcam, *or* upload a short clip; either way the ViT runs on every frame and a timeline chart shows how emotions shift over time.
+* **🎙️ Audio** - Whisper transcribes speech and feeds the transcript into the text channel for full tri-modal fusion.
+* **🧭 Conversation Coach** - beyond single-moment analysis: capture a sequence of conversation turns, plot how the alignment between modalities evolves across the whole conversation, and get **prescriptive** advice ("the alignment is drifting into mismatch at turn 3, pause and ask an open-ended question") instead of just a description. This turns MoodSyncAI from a descriptive tool into an actionable conversation companion.
 
 ---
 
@@ -133,7 +133,7 @@ MoodSyncAI/
 
 1. Create a new Space → SDK: **Streamlit**.
 2. Upload the repository (or push via `git`).
-3. Make sure `requirements.txt` is at the root — Spaces installs it automatically.
+3. Make sure `requirements.txt` is at the root, Spaces installs it automatically.
 4. Set hardware to **CPU basic** (works) or **CPU upgrade** (faster).
 5. The app boots at `https://huggingface.co/spaces/<your-name>/moodsync-ai`.
 
@@ -184,11 +184,11 @@ The example flow from the assignment brief works out of the box:
 
 ## Author
 
-**Harsha** — Data Analytics-3, SoSe 2025
+**Harsha** - Data Analytics-3, SoSe 2025
 Instructor: Prof. Dr. Gayan de Silva.
 
 ---
 
 ## License
 
-MIT — see `LICENSE`.
+MIT - see `LICENSE`.
